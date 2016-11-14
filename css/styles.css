@@ -1,4 +1,9 @@
 
+.screen {
+  height: 400px;
+  width: 650px;
+}
+
 .content {
   padding-bottom: 6%;
 }
