@@ -1,3 +1,29 @@
+.rowIcons :hover{
+}
+
+
+#section {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.appDesc {
+  text-align: left;
+}
+
+.siteBtn {
+  background-color: black;
+}
+
+.codeBtn {
+  background-color: black;
+}
+
+.skills {
+  margin: 0 auto;
+  max-width: auto;
+}
+
 .img-fluid {
 max-width: 100%;
 height: auto;
