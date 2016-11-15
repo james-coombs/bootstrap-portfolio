@@ -7,7 +7,7 @@ module.exports = {
   options: {
     entry: {
       bundle: './index.js',
-      specs: './spec/_all.js',
+      // specs: './spec/_all.js',
       vendor: ['jquery', 'bootstrap-sass'],
     },
 
