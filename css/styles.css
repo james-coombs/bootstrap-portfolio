@@ -1,6 +1,10 @@
 .rowIcons :hover{
 }
 
+.slides {
+  max-width: 600px;
+  height: auto;
+}
 
 .mainNav {
   float: left;
