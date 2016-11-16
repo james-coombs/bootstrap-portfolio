@@ -22,6 +22,12 @@ body {
   border: 1px solid black;
 }
 
+#contact {
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
+}
+
 .project-container iframe {
     position: absolute;
     top:0;
