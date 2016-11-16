@@ -7,6 +7,12 @@
 }
 
 
+#skills {
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
+}
+
 .project-container iframe {
     position: absolute;
     top:0;
