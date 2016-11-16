@@ -38,57 +38,44 @@
 
 </head>
 
-<body id="page-top">
-  <!--
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid"> -->
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <!-- <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button> -->
-  <!-- <nav class="mainNav"> -->
-  <a class="navbar-brand page-scroll" href="#page-top">James Coombs</a>
+<body class="container-fluid" id="page-top">
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-right">
-      <li>
-        <a class="page-scroll" href="#about"> > About</a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#projects"> > Projects</a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#skills"> > Skills</a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#contact"> > Contact</a>
-      </li>
-    </ul>
+  <div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </div>
   <!-- </nav> -->
   <!-- /.navbar-collapse -->
 
   <!-- /.container-fluid -->
 
-  <header>
+  <header class="container-fluid">
     <div class="header-content">
       <div class="header-content-inner">
-        <div class="headshot">
-          <img class="img-circle" src="img/backgroung.jpg">
-        </div>
+        <img class="img-circle" src="img/headshot.jpg">
         <h1 id="homeHeading">James Coombs</h1>
         <h2>Web Developer</h2>
-        <hr>
-        <p>I'm a sharp, driven developer-eager to learn and implement new skills. I love to build web apps, watch them break, and then refine them. My love to design, create and fiddle with anything I can get my hands on drives me to improve my work as a
-          developer.
-        </p>
         <div class="rowIcons">
           <a href="https://github.com/james-coombs"><i class="fa fa-github-alt fa-3x white-text" aria-hidden="true"></i></a>
           <a href="https://linkedin.com/in/james-coombs"><i class="fa fa-linkedin fa-3x white-text" aria-hidden="true"></i></a>
           <a href="mailto:coombsj36@gmail.com"><i class="fa fa-envelope fa-3x white-text" aria-hidden="true"></i></a>
         </div>
+        <hr>
+
+        <p>I'm a sharp, driven developer-eager to learn and implement new skills. I love to build web apps, watch them break, and then refine them. My love to design, create and fiddle with anything I can get my hands on drives me to improve my work as a
+          developer.
+        </p>
+
+        <p>
+          Web development is the intersection of my two passions: building and technology. If I'm not making something, I am reading about what's on the cutting edge of computing. Putting these pieces together is what I live for.
+        </p>
+
       </div>
     </div>
   </header>
@@ -211,7 +198,7 @@
   </section>
 
 
-<h2 class="skillsHeader"> > Skills</h2>
+  <h2 class="skillsHeader"> > Skills</h2>
   <section id="skills">
     <div class="container" "skills">
       <div class="row">
@@ -274,7 +261,7 @@
     </div>
   </section>
 
-  <aside class="bg-dark">
+  <aside class="bg-green">
     <div class="container text-center">
       <div class="call-to-action">
         <h2> > Resume</h2>
@@ -323,6 +310,8 @@
 
   <!-- Theme JavaScript -->
   <script src="js/creative.min.js"></script>
+  <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="scrollIt.js" type="text/javascript"></script>
 
 </body>
 

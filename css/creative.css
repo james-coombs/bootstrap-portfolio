@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 html,
 body {
   height: 100%;
@@ -158,7 +159,6 @@ header {
   background-position: center;
   background-image: url('../img/background.jpg');
   text-align: center;
-  color: black;
 }
 header .header-content {
   position: relative;
