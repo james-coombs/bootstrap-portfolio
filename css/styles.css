@@ -16,10 +16,14 @@ body {
 }
 
 #skills {
+/*text-align: center;
+clear: right;
+  margin: 0 auto;*/
+}
+
+.skill {
   text-align: center;
-  clear: both;
-  margin: 0 auto;
-  border: 1px solid black;
+  float: left;
 }
 
 #contact {
@@ -130,4 +134,7 @@ height: auto;
 background-image: url('../img/background.jpg');
 background-position: center;
 background-size: cover;
+text-align: center;
+clear: both;
+margin: 0 auto;
 }
