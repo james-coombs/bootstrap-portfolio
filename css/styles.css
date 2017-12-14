@@ -15,12 +15,6 @@ body {
   border: 1px solid black;
 }
 
-#skills {
-/*text-align: center;
-clear: right;
-  margin: 0 auto;*/
-}
-
 .skill {
   text-align: center;
   float: left;
@@ -131,10 +125,38 @@ height: auto;
 
 .bg-green {
   color: white;
-background-image: url('../img/background.jpg');
-background-position: center;
-background-size: cover;
-text-align: center;
-clear: both;
-margin: 0 auto;
+  background-image: url('../static/img/background.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
 }
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rowIcons {
+  padding-bottom: 20px;
+}
+
+#projects {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#skills {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+#overlay {
+  min-width: 100%;
+}
+
