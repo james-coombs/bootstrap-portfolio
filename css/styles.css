@@ -142,10 +142,6 @@ height: auto;
   padding-right: 20px;
 }
 
-.rowIcons a:hover {
-  padding-right: 20px;
-}
-
 #projects {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -172,6 +168,10 @@ height: auto;
 .nav-list li {
 	text-align: center;
 	width: 25%;
+}
+
+.nav-list li a:hover {
+	color:#333333;;
 }
 
 .btn {
