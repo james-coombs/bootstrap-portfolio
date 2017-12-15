@@ -34,13 +34,9 @@ body {
     height: 100%;
 }
 
-.project-media {
-  text-decoration: underline;
-}
-
 .img-circle {
     border-radius: 50%;
-    max-width:  250px;
+    max-width: 250px;
     height: auto;
     border: 4px solid white;
 }
@@ -142,6 +138,14 @@ height: auto;
   padding-bottom: 20px;
 }
 
+.rowIcons a {
+  padding-right: 20px;
+}
+
+.rowIcons a:hover {
+  padding-right: 20px;
+}
+
 #projects {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -163,6 +167,20 @@ height: auto;
 
 #contact {
 	padding-top: 25px;
+}
+
+.nav-list li {
+	text-align: center;
+	width: 25%;
+}
+
+.btn {
+	background-color: #333333;
+	margin-right: 2px;
+}
+
+.btn:hover{
+	background-color: #53A150;
 }
 
 header {
