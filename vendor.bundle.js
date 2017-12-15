@@ -12,7 +12,9 @@
 /******/ 			installedChunks[chunkId] = 0;
 /******/ 		}
 /******/ 		for(moduleId in moreModules) {
-/******/ 			modules[moduleId] = moreModules[moduleId];
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
 /******/ 		}
 /******/ 		if(parentJsonpFunction) parentJsonpFunction(chunkIds, moreModules);
 /******/ 		while(callbacks.length)
@@ -96,15 +98,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
 	module.exports = __webpack_require__(2);
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	 * jQuery JavaScript Library v2.2.4
@@ -9922,9 +9924,9 @@
 	}));
 
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(jQuery) {/*!
 	 * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -12306,5 +12308,5 @@
 
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
-/***/ }
+/***/ })
 /******/ ]);

@@ -1,6 +1,6 @@
 webpackJsonp([0],[
 /* 0 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -22,5 +22,5 @@ webpackJsonp([0],[
 
 	// require('expose?getFormFields!./lib/get-form-fields.js');
 
-/***/ }
+/***/ })
 ]);
