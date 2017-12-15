@@ -150,6 +150,7 @@ height: auto;
 #skills {
   padding-top: 25px;
   padding-bottom: 25px;
+  text-align: center;
 }
 
 .mb-1 {
@@ -160,3 +161,14 @@ height: auto;
   min-width: 100%;
 }
 
+#contact {
+	padding-top: 25px;
+}
+
+header {
+ 	min-height: 100%;
+ }
+
+i {
+	font-size: 4rem;
+ }

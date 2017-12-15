@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <title>James Coombs</title>
+
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
 
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,13 +53,9 @@
       </ul>
     </nav>
   </div>
-  <!-- </nav> -->
-  <!-- /.navbar-collapse -->
-
-  <!-- /.container-fluid -->
 
   <header class="container bg-green">
-    <div class="header-content ">
+    <div>
       <div class="header-content-inner py-20">
         <img class="img-circle" src="static/img/headshot.jpg">
         <h1 id="homeHeading">James Coombs</h1>
@@ -180,7 +179,6 @@
         </div>
       </div>
 
-
       <div class="card-panel hoverable">
         <div class="row">
           <div class="col s12 m6 l5">
@@ -245,49 +243,78 @@
       </div>
   </section>
 
-
   <h2 class="skillsHeader">Skills</h2>
 
-  <section id="skills">
-    <div class="container skills">
+    <section id="skills">
+        <div class="container">
+            <div class="row skill-row">
+                <div class="skill col-xs-3">
+                    <i class="devicon-javascript-plain"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-css3-plain-wordmark"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                    <p>Node</p>
+                </div>
+            </div>
 
+            <div class="row skill-row">
+                <div class="skill col-xs-3">
+                    <i class="devicon-sass-original"></i>
+                    <p>SASS</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-react-original"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-ruby-plain"></i>
+                    <p>Ruby</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-rails-plain"></i>
+                    <p>Rails</p>
+                </div>
+            </div>
 
-<div class="skill">  <p class="javascript devicons devicons-javascript_badge"><p>JavaScript</p></p> </div>
-
-    <div class="skill">  <p class="html5 devicons devicons-html5"><p>HTML5</p></p> </div>
-
-    <div class="skill">  <p class="ruby devicons devicons-ruby"><p>Ruby</p></p> </div>
-
-    <div class="skill">  <p class="rails devicons devicons-ruby_on_rails"><p>Rails</p></p> </div>
-
-    <div class="skill">  <p class="postgresql devicons devicons-postgresql"><p>PostgreSQL</p></p> </div>
-
-    <div class="skill">  <p class="ember devicons devicons-ember"><p>Ember</p></p> </div>
-
-    <div class="skill">  <p class="nodejs devicons devicons-nodejs"><p>Node</p></p> </div>
-
-    <div class="skill">  <p class="mongodb devicons devicons-mongodb"><p>MongoDB</p></p> </div>
-
-    <div class="skill">  <p class="css3 devicons devicons-css3"><p>CSS3</p></p> </div>
-
-    <div class="skill">  <p class="sass devicons devicons-sass"><p>SASS</p></p> </div>
-
-    <div class="skill">  <p class="bootstrap devicons devicons-bootstrap"><p>Bootstrap</p></p> </div>
-
-    <div class="skill">  <p class="git devicons devicons-git"><p>Git</p></p> </div>
-
-    <div class="skill">  <p class="github devicons devicons devicons-github"><p>GitHub</p></p> </div>
-
-    <div class="skill">  <p class="jquery devicons devicons-jquery"><p>jQuery</p></p> </div>
-
-    <div class="skill">  <p class="npm devicons devicons devicons-npm"><p>NPM</p></p> </div>
-
-    <div class="skill">  <p class="python devicons devicons devicons-python"><p>Python</p></p> </div>
-
-    <div class="skill">  <p class="django devicons devicons devicons-django"><p>Django</p></p> </div>
-
-    </div>
-  </section>
+            <div class="row skill-row">
+                <div class="skill col-xs-3">
+                    <i class="devicon-postgresql-plain"></i>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-mongodb-plain"></i>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-git-plain"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-github-plain"></i>
+                    <p>GitHub</p>
+                </div>
+            </div>
+            <div class="row skill-row">
+                <div class="skill col-xs-3">
+                    <i class="devicon-jquery-plain"></i>
+                    <p>jQuery</p>
+                </div>
+                <div class="skill col-xs-3">
+                    <i class="devicon-python-plain"></i>
+                    <p>Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
   <aside class="bg-green">
     <div class="container text-center">
@@ -301,18 +328,15 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2 class="section-heading">Drop Me a Line!</h2>
           <hr class="primary">
-        </div>
-        <div class="col-lg-3 col-lg-offset-2 text-center">
+        <div class="col-md-4 text-center">
           <a href="mailto:coombsj36@gmail.com"><p class="fa fa-envelope fa-3x"><p>coombsj36@gmail.com</p></a>
         </div>
-        <div class="col-lg-3 col-lg-offset-2 text-center">
+        <div class="col-md-4 text-center">
           <a href="https://github.com/james-coombs"><p class="fa fa-github-alt fa-3x"><p>james-coombs</p></a>
-
         </div>
-        <div class="col-lg-3 col-lg-offset-2 text-center">
+        <div class="col-md-4 text-center">
           <a href="https://linkedin.com/in/james-coombs"><p class="fa fa-linkedin fa-3x"><p>james-coombs</p></a>
         </div>
       </div>
