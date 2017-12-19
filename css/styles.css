@@ -24,6 +24,7 @@ body {
   text-align: center;
   clear: both;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 .project-container iframe {
@@ -169,11 +170,16 @@ body {
 .nav-list li {
   text-align: center;
   width: 25%;
+  font-size: 4rem;
 }
+
+.nav-list li a {
+  font-size: 14px;
+}
+
 
 .nav-list li a:hover {
   color: #333333;
-  ;
 }
 
 .btn {
@@ -195,6 +201,9 @@ i {
 
 @media (max-width: 768px) {
   .skill p {
+    font-size: 10px;
+  }
+  .nav-list li a {
     font-size: 10px;
   }
 }
